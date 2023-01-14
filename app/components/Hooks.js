@@ -1,3 +1,4 @@
+'use client'
 import { useState, useLayoutEffect, useRef } from "react";
 
 export const useParentSize = () => {
