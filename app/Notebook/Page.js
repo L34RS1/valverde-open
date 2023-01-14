@@ -1,5 +1,5 @@
 'use client'
-import { Grid } from "./Grid";
+import { Grid } from "../components/Grid";
 import { Cards } from "./Cards";
 
 export const Notebook = () => {

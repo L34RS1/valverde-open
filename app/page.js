@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { Notebook } from './components/notebook'
+import { Notebook } from './Notebook/Page.js'
 
 export default function page() {
   return (

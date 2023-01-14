@@ -16,6 +16,7 @@ body {
   justify-content: center;
   overflow-x: hidden;
   font-family: Inter;
+  align-items: flex-start;
 }
 
 body {
@@ -72,22 +73,13 @@ a {
   padding: 0;
 }
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-size: 2vw;
-  min-width: 320px;
-}
 
 .main {
   font-family: mainFont, sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background: #eeeeee;
-  text-align: left;
 }
 
 h1,

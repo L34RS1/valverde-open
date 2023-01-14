@@ -1,7 +1,7 @@
 'use client'
-import { Tile } from "./Tile";
+import { Tile } from "../components/Tile";
 import { motion, useSpring } from "framer-motion";
-import { useParentSize } from "./Hooks.js";
+import { useParentSize } from "../components/Hooks.js";
 import { useState } from "react";
 
 //  Create some data where each item
@@ -123,7 +123,7 @@ const Card = ({ i, name, length, size, rotateArray, current }) => {
   // just to maintain all ratios.
 
   const cardWidth = size * 0.35 * 1;
-  const cardHeight = size * 0.5 * 1;
+  const cardHeight = size * 0.35 * 1;
 
   // Bunch of helpers
   // to get the correct array slice
