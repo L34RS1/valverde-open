@@ -1,3 +1,4 @@
+'use client'
 import { Grid } from "./Grid";
 import { Cards } from "./Cards";
 
