@@ -120,7 +120,7 @@ h2 {
 
 .tileWrapper {
   position: relative;
-  padding-top: 100%;
+  padding-top: 60%;
   overflow: hidden;
   outline: none;
 }
@@ -218,7 +218,7 @@ h2 {
   transform: translateX(-50%);
   z-index: 2;
   font-size: 14px;
-  background: hsla(0, 0%, 0%, 0.2);
+  background: hsla(0, 0%, 100%, 0.2);
   padding: 4px 8px;
   border-radius: 100px;
   font-weight: 300;

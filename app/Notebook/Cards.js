@@ -122,7 +122,7 @@ const Card = ({ i, name, length, size, rotateArray, current }) => {
   // Card is sized relatively to the container,
   // just to maintain all ratios.
 
-  const cardWidth = size * 0.35 * 1;
+  const cardWidth = size * 0.60 * 1;
   const cardHeight = size * 0.35 * 1;
 
   // Bunch of helpers

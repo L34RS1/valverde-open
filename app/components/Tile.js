@@ -39,14 +39,11 @@ export const Tile = forwardRef(
 
     return (
       <div ref={wrapperRef} className="tileWrapper">
-        <div className="caption top" style={{ zIndex: 1 }}>
-          {captionTop}
-        </div>
         <div
           className="view"
           ref={ref}
           style={{
-            background: dark ? "hsla(0, 0%, 13%, 1)" : "#fafafa",
+            background: "#13005A",
             perspective: perspective ? `${perspectiveDist * 2}px` : "none",
             touchAction: "none"
           }}
