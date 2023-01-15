@@ -7,7 +7,7 @@ import { useState } from "react";
 //  Create some data where each item
 //  in the array will represent an unique card
 
-const data = ["a", "b", "c", "d", "e"];
+const data = ["gato", "b", "c", "d", "e"];
 
 // Mapping function to create duplicates with UIDs
 const mapData = (data, prefix) =>
@@ -270,7 +270,7 @@ const Card = ({ i, name, length, size, rotateArray, current }) => {
         rotateZ: dRotZ,
         width: `${cardWidth}px`,
         height: `${cardHeight}px`,
-        top: `50%`,
+        top: `60%`,
         left: `50%`,
         zIndex: length - i,
         borderRadius: `${size * 0.025}px`,
