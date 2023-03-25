@@ -6,7 +6,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'octopus': '#13005A',
+      'octopus': '#E1E0DC',
+      'purple': '#3D00BF',
     },
     extend: {},
   },

@@ -1,13 +1,13 @@
 'use client'
 import React from 'react'
-import { Notebook } from './Notebook/Page.js'
-import Header from './components/header.js'
+import Anim from './components/Animation.js'
 
 export default function page() {
   return (
-    <div className="main">
-      <Header/>
-      <Notebook />
+    <>
+    <div className="grid justify-items-center">
+      <Anim/>
     </div>
+    </>
   )
 }
