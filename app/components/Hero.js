@@ -1,5 +1,5 @@
 import React from 'react'
-import Twuser from './twuser'
+
 
 export default function Hero() {
   return (
