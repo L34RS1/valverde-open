@@ -19,8 +19,8 @@ export default function Anim() {
 
   return (
     <>
-    <div className="container w-1/3" ref={animationRef} />
-    <div className='grid justify-items-start'>
+    <div className="container max-w-md" ref={animationRef} />
+    <div className='flex justify-items-center'>
     <Hero/>
     </div>
     </>
