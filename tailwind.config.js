@@ -8,6 +8,7 @@ module.exports = {
     colors: {
       'octopus': '#E1E0DC',
       'purple': '#3D00BF',
+      ...colors
     },
     extend: {},
   },

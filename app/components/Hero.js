@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className='text-purple block leading-tight justify-items-start'>
-        <p className='font-extrabold text-md subpixel-antialiased tracking-wide'>Developed by:</p>
-        <p className='mb-0 font-medium text-sm subpixel-antialiased tracking-wide'>isrælvalverde © 2024</p>
+    <div className='grid leading-tight justify-items-center p-12 lg:mt-24'>
+        <p className='font-bold text-5xl subpixel-antialiased text-purple-800'>Find your next great read!</p> <br/> <br/>
+        <p className='mb-0 font-semibold text-lg subpixel-antialiased tracking-wide text-gray-400'>Let AI help! Simply type in your Twitter username and let the magic happen.</p>
     </div>
   )
 }

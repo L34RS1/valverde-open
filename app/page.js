@@ -1,13 +1,15 @@
 'use client'
 import React from 'react'
-import Anim from './components/Animation.js'
+import Hero from './components/Hero.js'
+import UserInputTw from './components/UserInputTw.js'
 
 export default function page() {
   return (
     <>
     <div className="grid justify-items-center">
-      <Anim/>
+      <Hero/>
+      <UserInputTw/>
     </div>
-    </>
+  </>
   )
 }
