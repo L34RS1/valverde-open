@@ -1,15 +1,13 @@
 'use client'
 import React from 'react'
+import GPT3 from './components/GPT3.js'
 import Hero from './components/Hero.js'
-import UserInputTw from './components/UserInputTw.js'
 
 export default function page() {
   return (
-    <>
     <div className="grid justify-items-center">
       <Hero/>
-      <UserInputTw/>
+      <GPT3/>
     </div>
-  </>
   )
 }
