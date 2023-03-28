@@ -1,6 +1,5 @@
 'use client'
 import React, { useRef, useEffect } from 'react';
-import Hero from './Hero.js';
 
 const lottie = require('lottie-web');
 
@@ -13,16 +12,11 @@ export default function Anim() {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      path: '/anim.json',
+      path: '/anim_2.json',
     });
   }, []);
 
   return (
-    <>
-    <div className="container max-w-md" ref={animationRef} />
-    <div className='flex justify-items-center'>
-    <Hero/>
-    </div>
-    </>
+    <div className="container max-w-sm" ref={animationRef} />
   )
 }
