@@ -4,7 +4,7 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head />
-      <body>
+      <body className='bg-gray-100 flex flex-col justify-items-center'>
         <header/>
       {children}
       </body>

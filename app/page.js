@@ -1,13 +1,13 @@
 'use client'
 import React from 'react'
-import GPT3 from './components/GPT3.js'
+import GPT31 from './components/GPT31.js'
 import Hero from './components/Hero.js'
 
 export default function page() {
   return (
-    <div className="grid justify-items-center">
+    <div className="flex flex-col items-center gap-0">
       <Hero/>
-      <GPT3/>
+      <GPT31/>
     </div>
   )
 }
