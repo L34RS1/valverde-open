@@ -1,11 +1,11 @@
 import '../styles/globals.css'
-import Header from './components/Header.js'
+import HeaderNew from './components/HeaderNew.js'
 export default function RootLayout({ children }) {
   return (
     <html>
       <head />
       <body className='bg-gray-100 flex flex-col justify-items-center'>
-        <Header/>
+        <HeaderNew/>
       {children}
       </body>
     </html>
