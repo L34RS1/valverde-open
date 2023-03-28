@@ -17,6 +17,6 @@ export default function Anim() {
   }, []);
 
   return (
-    <div className="container max-w-sm" ref={animationRef} />
+    <div className="m-0" ref={animationRef} />
   )
 }

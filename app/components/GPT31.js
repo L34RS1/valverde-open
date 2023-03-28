@@ -98,8 +98,8 @@ import Anim from './Animation';
       {responseText}
       </p>
       <Anim/>
-      <div className="flex justify-end mt-5">
-      <button onClick={handleBack} className="mx-4 inline-flex items-center justify-center rounded px-[15px] text-[15px] leading-none font-medium h-[35px] bg-violet4 text-violet11 hover:bg-violet5 focus:shadow-[0_0_0_2px] focus:shadow-violet7 outline-none cursor-default">
+      <div className="flex w-full justify-between mt-5">
+      <button onClick={handleBack} className="inline-flex items-center justify-center rounded px-[15px] text-[15px] leading-none font-medium h-[35px] bg-violet4 text-violet11 hover:bg-violet5 focus:shadow-[0_0_0_2px] focus:shadow-violet7 outline-none cursor-default">
       <ArrowLeftIcon/><p className='pl-2'>Back</p>
         </button>
         <button onClick={handleSubmit} className="inline-flex items-center justify-center rounded px-[15px] text-[15px] leading-none font-medium h-[35px] bg-violet11 text-white hover:bg-violet12 focus:shadow-[0_0_0_2px] focus:shadow-violet11 outline-none cursor-default">
