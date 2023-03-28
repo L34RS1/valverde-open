@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Header from './components/Header'
+import Header from './components/Header.js'
 export default function RootLayout({ children }) {
   return (
     <html>
