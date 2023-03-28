@@ -35,7 +35,7 @@ import Anim from './Animation';
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (!inputText){
-      console.log('empty');
+      window.alert('You need to fill the user field! :)');
     }
     else{
     // Make a request to the OpenAI API with the user's message
@@ -76,7 +76,7 @@ import Anim from './Animation';
         </label>
         <TwitterLogoIcon className='absolute text-violet-600 translate-y-[34px] translate-x-[10px]'/>
         <input
-          className=" pl-8 grow shrink-0 rounded px-2.5 text-[16px] leading-none text-violet11 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
+          className=" pl-8 grow shrink-0 rounded px-2.5 text-[16px] leading-none text-gray-500 shadow-[0_0_0_1px] shadow-violet7 h-[35px] focus:shadow-[0_0_0_2px] focus:shadow-violet8 outline-none"
           id="username"
           placeholder="@username"
           value={inputText} 
