@@ -3,6 +3,8 @@ import * as Tabs from '@radix-ui/react-tabs';
 import { MagicWandIcon, ArrowLeftIcon, TwitterLogoIcon } from '@radix-ui/react-icons'
 import axios from 'axios';
 import Anim from './Animation';
+import { motion, AnimatePresence } from "framer-motion"
+
 
   const API_KEY= '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';
 
@@ -59,6 +61,16 @@ import Anim from './Animation';
   };
 
   return (
+    <AnimatePresence>
+    <motion.div
+      className="box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 1,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}>
     <div className='flex justify-center items-start pt-12 '>
 <Tabs.Root
     className="rounded-xl flex flex-col w-[300px] shadow-[0_2px_10px] shadow-blackA4"
@@ -66,7 +78,7 @@ import Anim from './Animation';
     onValueChange={(value) => setActiveTab(value)}
   >
     <Tabs.Content
-      className="grow p-5 bg-white rounded-xl outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
+      className="grow p-5 bg-white rounded-xl outline-none shadow-[0_0_0_2px] shadow-violet11"
       value="tab1"
     >
       <form onSubmit={handleSubmit}>
@@ -91,7 +103,7 @@ import Anim from './Animation';
       </form>
     </Tabs.Content>
     <Tabs.Content
-      className="grow p-5 bg-white rounded-xl outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
+      className="grow p-5 bg-white rounded-xl outline-none shadow-[0_0_0_2px] shadow-violet11"
       value="tab2"
     >
       <p className="mb-2 font-semibold text-violet11 text-[15px] leading-normal text-center">
@@ -109,6 +121,9 @@ import Anim from './Animation';
     </Tabs.Content>
   </Tabs.Root>
   </div>
+  </motion.div>
+  </AnimatePresence>
+
 );
 }
 export default GPT31;
