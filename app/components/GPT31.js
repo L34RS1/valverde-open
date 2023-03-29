@@ -49,7 +49,7 @@ import { motion, AnimatePresence } from "framer-motion"
     }, {
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${API_KEY}`,
+        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
       },
     });
 
