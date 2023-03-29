@@ -42,7 +42,7 @@ import { motion, AnimatePresence } from "framer-motion"
     else{
     // Make a request to the OpenAI API with the user's message
     const response = await axios.post('https://api.openai.com/v1/engines/text-davinci-002/completions', {
-      prompt: `Recommend me a book based on my twitter account: @ "${inputText}". Please just mention the name of the book and nothing else.`,
+      prompt: `Recommend me a book based on my twitter feed: @ "${inputText}". Please just mention the name of the book and nothing else.`,
       max_tokens: 50,
       n: 1,
       stop: '.',
