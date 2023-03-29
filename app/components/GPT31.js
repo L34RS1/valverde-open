@@ -6,7 +6,7 @@ import Anim from './Animation';
 import { motion, AnimatePresence } from "framer-motion"
 
 
-  const API_KEY= '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';
+  const API_KEY= 'your_api_key';
 
   const GPT31 = () => {
 
